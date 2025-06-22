@@ -1,49 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sekoittava Pata</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
-        }
-        .video-section {
-            margin-bottom: 30px;
-        }
-        .video-description {
-            font-size: 16px;
-            color: #050505;
-            margin: 10px 0;
-        }
-        iframe {
-            margin: 10px 0;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kassa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #000;
+    }
+
+    .video-section {
+      margin-top: 30px;
+    }
+
+    .video-container {
+      margin-bottom: 40px;
+    }
+
+    .video-description {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  </style>
 </head>
 <body>
-    <div class="video-section">
-        <div class="video-description">
-            <p>This is how we should use this machine. Watch how it operates!</p>
-        </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3aoUa-uGU0s?si=yWKJVpB0rw5S3Mmx" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
+
+  <h1>Kassa</h1>
+  <h2>Kassan käyttöä kuvataan kolmessa vaiheessa.</h2>
+
+  <div class="video-section">
+
+    <div class="video-container">
+      <div class="video-description">Vaihe 1: Avataan pankkiautomaatti</div>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/8WiQBAk6aIE" 
+        title="YouTube Shorts player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
     </div>
 
-    <div class="video-section">
-        <div class="video-description">
-            <p>This is the cleaning video of this machine. Learn how to clean it efficiently!</p>
-        </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Kf2bHpfcBJo?si=OJlWWB352uCoHu-C" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
+    <div class="video-container">
+      <div class="video-description">Vaihe 2: Yhdistä internetiin</div>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/paxw5-sCg4g" 
+        title="YouTube Shorts player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
     </div>
+
+    <div class="video-container">
+      <div class="video-description">Vaihe 3: Toinen toimenpide</div>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/oVDV2npsbv0" 
+        title="YouTube Shorts player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+
 </body>
 </html>
